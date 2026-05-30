@@ -1,34 +1,34 @@
-YT Downloader — Windows standalone version
+YT Downloader — скачивание видео с YouTube
 
-HOW TO USE:
-1. Run "YT Downloader.exe"
-2. Paste a YouTube URL
-3. Click "Get Info"
-4. Select a format from the list
-5. Click "Download"
+КАК ПОЛЬЗОВАТЬСЯ:
+1. Запустите "YT Downloader.exe"
+2. Вставьте ссылку на YouTube видео
+3. Нажмите "Get Info"
+4. Выберите качество из списка
+5. Нажмите "Download"
 
-VIDEO DOWNLOAD:
-Just select a quality from the list and click Download.
-The file will be saved to your Downloads folder (or a folder you choose).
+СКАЧИВАНИЕ ВИДЕО:
+Выберите качество и нажмите Download.
+Файл сохранится в папку Загрузки (или ту, которую вы укажете).
 
-MP3 (AUDIO ONLY):
-1. Check "Download as MP3 (audio only)"
-2. Click Download
-3. NOTE: This requires ffmpeg to be installed.
+MP3 (ТОЛЬКО АУДИО):
+1. Отметьте "Download as MP3 (audio only)"
+2. Нажмите Download
+3. ВАЖНО: требуется установленный ffmpeg.
 
-INSTALLING FFMPEG (for MP3 downloads):
-Method 1 — winget (recommended):
-  Open Command Prompt or PowerShell and run:
+УСТАНОВКА FFMPEG (нужен только для MP3):
+Способ 1 — winget (рекомендуется):
+  Откройте cmd или PowerShell и выполните:
     winget install ffmpeg
 
-Method 2 — Manual:
-  Download from https://ffmpeg.org/download.html
-  Add the "bin" folder to your PATH environment variable.
+Способ 2 — вручную:
+  Скачайте с https://ffmpeg.org/download.html
+  Добавьте папку "bin" в переменную PATH.
 
-BUILD FROM SOURCE (if you have Python):
-  Run build_exe.bat (requires Python 3.8+)
+СБОРКА ИЗ ИСХОДНИКОВ (если есть Python):
+  Запустите build_exe.bat (требуется Python 3.8+)
 
-REQUIREMENTS:
-- Windows 7 or later
-- yt-dlp is bundled inside the .exe
-- ffmpeg is needed ONLY for MP3 conversion
+СИСТЕМНЫЕ ТРЕБОВАНИЯ:
+- Windows 7 или новее
+- yt-dlp встроен в .exe
+- ffmpeg нужен ТОЛЬКО для конвертации в MP3
